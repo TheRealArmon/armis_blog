@@ -1,0 +1,91 @@
+@font-face { font-family: ZCOOL; src: url('../fonts/ZCOOL_KuaiLe/ZCOOLKuaiLe-Regular.ttf'); } 
+.ZCOOL { font-family: ZCOOL; font-size: 1.0em; }
+
+.title {
+    font-family: ZCOOL;
+    font-size: 1.0em;
+    width:max-content;
+    padding: 0% 10% 0% 10%;
+    font-size: 80px;
+    background-color:rgb(115, 234, 255);
+    color:black;
+    font-weight: 1;
+}
+
+.headline{
+    font: 20px Lato, sans-serif;
+    color: rgba(224,27,224,1);
+}
+
+.buttons {
+    background-color: rgba(224,27,224,0.3);
+    color:white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px;
+    font-family: verdana;
+}
+
+.buttons#selected{
+    background-color: rgba(224,27,224,0.6);
+}
+
+.blog-posts, li {
+    font-size: 16px;
+    font-style: normal normal;
+    font: normal normal 16px Lato, sans-serif;
+    color: #3B4040;
+    text-decoration: none;
+    text-align: left;
+    line-height: 27.2px;
+    margin: 0px 0px 16px 0px;
+    padding: 0px 0px 0px 0px;
+    text-transform: none;
+}
+
+#plainly-hidden {
+    color:rgb(115, 234, 255);
+    line-height: 0px;
+    font-size: 10px;
+    margin: 0px;
+}
+
+#bucket-list {
+    float: right;
+}
+
+#vinsmaking {
+    float: right;
+}
+
+li{
+    margin: 0;
+}
+
+.post-container {
+    max-width: 65em;
+}
+
+img{
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+#less-spacing img{
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.float {
+    overflow: hidden;
+}
+
+.float-left {
+    float: left;
+}
+.float-right{
+    float: right;
+}
