@@ -5,22 +5,30 @@
     font-family: ZCOOL;
     font-size: 1.0em;
     width: max-content;
-    padding: 0% 10% 0% 10%;
     font-size: 80px;
     background-color:rgb(115, 234, 255);
     color:black;
     font-weight: 1;
 }
+.title #headline {
+    margin-bottom: -10px;
+    margin-top: -20px;
+}
+.title #headline2 {
+    font-size: 50%;
+    margin-bottom: -20px;
+}
 
-.headline{
+.tagline{
     font: 20px Lato, sans-serif;
     color: rgba(224,27,224,1);
 }
 
-.buttons {
+.buttons a {
     background-color: rgba(224,27,224,0.3);
     color:white;
-    padding: 15px 32px;
+    padding: 16px 32px;
+    margin: 0px 16px 16px 16px;
     text-decoration: none;
     display: inline-block; 
     list-style-type: none;
@@ -28,7 +36,7 @@
     font-family: verdana;
 }
 
-.buttons#selected-button{
+.buttons #selected-button{
     background-color: rgba(224,27,224,0.6);
 }
 
@@ -89,4 +97,12 @@ img{
 }
 .float-right{
     float: right;
+}
+
+.bottom-bar {
+    font-family: verdana;
+    background-color: MediumSeaGreen;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 150%;
 }
