@@ -53,6 +53,11 @@
     text-transform: none;
 }
 
+.blog-posts#disclaimer {
+    margin-top: -20px;
+    font-size: 8px;
+}
+
 #plainly-hidden {
     color:rgb(115, 234, 255);
     line-height: 0px;
