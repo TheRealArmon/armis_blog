@@ -1,2 +1,3 @@
-# lilboiice.github.io
-website test
+# blog
+
+dis is my blog wihoo:))
